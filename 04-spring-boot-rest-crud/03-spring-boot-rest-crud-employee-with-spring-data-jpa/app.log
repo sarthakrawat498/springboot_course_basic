@@ -1,0 +1,258 @@
+2026-04-16T14:18:19.178+05:30  INFO 31068 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Starting CruddemoApplication using Java 21.0.9 with PID 31068 (C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes started by sarthakrawat in C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa)
+2026-04-16T14:18:19.206+05:30  INFO 31068 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T14:18:19.460+05:30  INFO 31068 --- [cruddemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-16T14:18:19.741+05:30  INFO 31068 --- [cruddemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-16T14:18:23.654+05:30  INFO 31068 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T14:18:23.816+05:30  INFO 31068 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+2026-04-16T14:18:25.158+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-16T14:18:25.198+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T14:18:25.198+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-16T14:18:25.380+05:30  INFO 31068 --- [cruddemo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5631 ms
+2026-04-16T14:18:25.927+05:30  INFO 31068 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-16T14:18:26.420+05:30  INFO 31068 --- [cruddemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@440cf415
+2026-04-16T14:18:26.424+05:30  INFO 31068 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-16T14:18:26.497+05:30  INFO 31068 --- [cruddemo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-16T14:18:26.678+05:30  INFO 31068 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-16T14:18:27.898+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T14:18:28.102+05:30  INFO 31068 --- [cruddemo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/employee_directory]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: employee_directory/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-16T14:18:29.832+05:30  INFO 31068 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T14:18:29.855+05:30  INFO 31068 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:18:30.163+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-16T14:18:30.968+05:30  WARN 31068 --- [cruddemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-16T14:18:32.223+05:30  INFO 31068 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-04-16T14:18:32.242+05:30  INFO 31068 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Started CruddemoApplication in 14.196 seconds (process running for 15.715)
+2026-04-16T14:18:32.264+05:30  WARN 31068 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-16T14:18:32.264+05:30  WARN 31068 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /my-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-16T14:20:45.674+05:30  INFO 31068 --- [cruddemo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16T14:20:45.813+05:30  INFO 31068 --- [cruddemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-16T14:20:45.826+05:30  INFO 31068 --- [cruddemo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:20:45.833+05:30  INFO 31068 --- [cruddemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-16T14:20:45.851+05:30  INFO 31068 --- [cruddemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-16T14:20:55.002+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Starting CruddemoApplication using Java 21.0.9 with PID 34432 (C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes started by sarthakrawat in C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa)
+2026-04-16T14:20:55.010+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T14:20:55.271+05:30  INFO 34432 --- [cruddemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-16T14:20:55.272+05:30  INFO 34432 --- [cruddemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-16T14:20:58.952+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T14:20:59.144+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2026-04-16T14:21:01.232+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-16T14:21:01.455+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T14:21:01.458+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-16T14:21:01.794+05:30  INFO 34432 --- [cruddemo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6521 ms
+2026-04-16T14:21:02.744+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-16T14:21:08.799+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@495b13a
+2026-04-16T14:21:08.802+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-16T14:21:08.916+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-16T14:21:09.306+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-16T14:21:11.551+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T14:21:11.865+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/employee_directory]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: employee_directory/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-16T14:21:14.539+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T14:21:14.560+05:30  INFO 34432 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:21:14.849+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-16T14:21:15.476+05:30  WARN 34432 --- [cruddemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-16T14:21:17.331+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-04-16T14:21:17.351+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Started CruddemoApplication in 23.767 seconds (process running for 25.384)
+2026-04-16T14:21:17.378+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-16T14:21:17.379+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /my-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-16T14:32:29.598+05:30  INFO 34432 --- [cruddemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-16T14:32:29.615+05:30  INFO 34432 --- [cruddemo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16T14:32:29.707+05:30  INFO 34432 --- [cruddemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-16T14:32:29.718+05:30  INFO 34432 --- [cruddemo] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:29.732+05:30  INFO 34432 --- [cruddemo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-16T14:32:29.809+05:30  INFO 34432 --- [cruddemo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-16T14:32:30.059+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Starting CruddemoApplication using Java 21.0.9 with PID 34432 (C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes started by sarthakrawat in C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa)
+2026-04-16T14:32:30.060+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T14:32:31.721+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T14:32:31.800+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2026-04-16T14:32:32.582+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-16T14:32:32.588+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T14:32:32.588+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-16T14:32:32.741+05:30  INFO 34432 --- [cruddemo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2676 ms
+2026-04-16T14:32:32.957+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-16T14:32:33.192+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@33960710
+2026-04-16T14:32:33.192+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-16T14:32:33.209+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-16T14:32:33.361+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T14:32:33.392+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/employee_directory]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: employee_directory/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-16T14:32:33.645+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T14:32:33.647+05:30  INFO 34432 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:33.964+05:30  WARN 34432 --- [cruddemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-16T14:32:34.370+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-04-16T14:32:34.379+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Started CruddemoApplication in 4.417 seconds (process running for 702.412)
+2026-04-16T14:32:34.381+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-16T14:32:34.381+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /my-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-16T14:32:34.385+05:30  INFO 34432 --- [cruddemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-16T14:32:36.809+05:30  INFO 34432 --- [cruddemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-04-16T14:32:36.812+05:30  INFO 34432 --- [cruddemo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16T14:32:36.842+05:30  INFO 34432 --- [cruddemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-16T14:32:36.846+05:30  INFO 34432 --- [cruddemo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:36.847+05:30  INFO 34432 --- [cruddemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-16T14:32:36.858+05:30  INFO 34432 --- [cruddemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-04-16T14:32:37.056+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Starting CruddemoApplication using Java 21.0.9 with PID 34432 (C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes started by sarthakrawat in C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa)
+2026-04-16T14:32:37.056+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T14:32:37.522+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T14:32:37.531+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-04-16T14:32:37.713+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-16T14:32:37.714+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T14:32:37.715+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-16T14:32:37.787+05:30  INFO 34432 --- [cruddemo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 725 ms
+2026-04-16T14:32:37.844+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-04-16T14:32:37.991+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@44495b40
+2026-04-16T14:32:37.991+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-04-16T14:32:37.994+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-16T14:32:38.084+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T14:32:38.112+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/employee_directory]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: employee_directory/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-16T14:32:38.212+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T14:32:38.213+05:30  INFO 34432 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:38.264+05:30  WARN 34432 --- [cruddemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeRestController' defined in file [C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes\com\sarthak\springboot\cruddemo\rest\EmployeeRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'employeeServiceImpl': Resolution of declared constructors on bean Class [com.sarthak.springboot.cruddemo.service.EmployeeServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@734d2c77] failed
+2026-04-16T14:32:38.265+05:30  INFO 34432 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:38.266+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-04-16T14:32:38.300+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-04-16T14:32:38.306+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-16T14:32:38.315+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-16T14:32:38.385+05:30 ERROR 34432 --- [cruddemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeRestController' defined in file [C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes\com\sarthak\springboot\cruddemo\rest\EmployeeRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'employeeServiceImpl': Resolution of declared constructors on bean Class [com.sarthak.springboot.cruddemo.service.EmployeeServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@734d2c77] failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.sarthak.springboot.cruddemo.CruddemoApplication.main(CruddemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeServiceImpl': Resolution of declared constructors on bean Class [com.sarthak.springboot.cruddemo.service.EmployeeServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@734d2c77] failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/sarthak/springboot/cruddemo/dao/EmployeeRepository
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3551) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2729) ~[na:na]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:363) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 37 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.sarthak.springboot.cruddemo.dao.EmployeeRepository
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:536) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:515) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 41 common frames omitted
+
+2026-04-16T14:32:39.921+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Starting CruddemoApplication using Java 21.0.9 with PID 34432 (C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa\target\classes started by sarthakrawat in C:\Users\sarthakrawat\OneDrive - Nagarro\Desktop\dev-spring-boot\04-spring-boot-rest-crud\03-spring-boot-rest-crud-employee-with-spring-data-jpa)
+2026-04-16T14:32:39.922+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-16T14:32:40.424+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-16T14:32:40.457+05:30  INFO 34432 --- [cruddemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2026-04-16T14:32:40.600+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-16T14:32:40.602+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-16T14:32:40.602+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-16T14:32:40.650+05:30  INFO 34432 --- [cruddemo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 723 ms
+2026-04-16T14:32:40.711+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-04-16T14:32:40.842+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@6acd9598
+2026-04-16T14:32:40.842+05:30  INFO 34432 --- [cruddemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-04-16T14:32:40.844+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-16T14:32:40.903+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-16T14:32:40.926+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/employee_directory]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: employee_directory/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-16T14:32:41.014+05:30  INFO 34432 --- [cruddemo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-16T14:32:41.017+05:30  INFO 34432 --- [cruddemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T14:32:41.147+05:30  WARN 34432 --- [cruddemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-16T14:32:41.347+05:30  INFO 34432 --- [cruddemo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-04-16T14:32:41.351+05:30  INFO 34432 --- [cruddemo] [restartedMain] c.s.s.cruddemo.CruddemoApplication       : Started CruddemoApplication in 1.484 seconds (process running for 709.384)
+2026-04-16T14:32:41.354+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-16T14:32:41.356+05:30  WARN 34432 --- [cruddemo] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /my-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-16T14:32:41.358+05:30  INFO 34432 --- [cruddemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-16T17:06:32.583+05:30  WARN 34432 --- [cruddemo] [HikariPool-4:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=45m50s240ms464µs800ns).
+2026-04-16T19:51:51.892+05:30  WARN 34432 --- [cruddemo] [HikariPool-4:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2h45m30s818ms134µs).
+2026-04-16T20:56:18.705+05:30  INFO 34432 --- [cruddemo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16T20:56:18.729+05:30  INFO 34432 --- [cruddemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-16T20:56:18.756+05:30  INFO 34432 --- [cruddemo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-16T20:56:18.777+05:30  INFO 34432 --- [cruddemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-04-16T20:56:18.788+05:30  INFO 34432 --- [cruddemo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
